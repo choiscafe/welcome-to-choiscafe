@@ -5,7 +5,7 @@ body {
  color: rgb(36, 13, 120);
 }
 
-#details > div >h3{
+#body > div >h3{
   font-family: 'square peg', cursive;
   font-size: 60px;
   color: rgb(14, 96, 106);
@@ -29,10 +29,10 @@ a:visited{
 
 img{
   border-radius: 10px;
-  border:10px solid rgb(235, 212, 245);
+
   border-width: 20px;
-  background-color: rgb(244, 240, 247);
-  box-shadow: 15px 15px 2px 1px rgba(0, 0, 255, .2);
+
+
   margin-bottom: 25px;
   padding: 20px;
   width: 400px;
