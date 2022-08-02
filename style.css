@@ -1,38 +1,68 @@
 body {
   background: rgb(215, 190, 248);
- font-family: 'Mochiy Pop One', sans-serif;
- font-size: 32px;
- color: rgb(36, 13, 120);
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 32px;
+  color: rgb(36, 13, 120);
+  text-align: center;
 }
 
-#body > div >h3{
-  font-family: 'square peg', cursive;
+#nav {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+
+}
+
+.navLinks {
+  position: relative;
+  width: 100%;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 200px;
+  font-size: 50px;
+  font-family: 'Kanit', sans-serif;
+  ;
+}
+
+#body>div>h3 {
+  margin-top: 150px;
   font-size: 60px;
   color: rgb(14, 96, 106);
-  float: left;
   background-color: rgb(215, 190, 248);
-  text-align: left;
+  text-align: center;
   width: 100%;
+  font-family: 'Mochiy Pop One', sans-serif;
+}
 
+h2 {
+  font-size: 30px;
+}
+
+input {
+  font-family: 'Kanit', sans-serif;
+  ;
+  font-size: 18px;
+  width: 17.1%;
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  ;
 }
 
-a:link{
-  color:blue;
-}
-a:visited{
-  color:rgb(138, 18, 138);
+a:link {
+  color: rgb(77, 77, 244);
 }
 
-img{
+a:visited {
+  color: rgb(138, 18, 138);
+}
+
+#Aegi {
   border-radius: 10px;
-
+  border:1px solid rgb(181, 172, 239);
   border-width: 20px;
-
-
   margin-bottom: 25px;
   padding: 20px;
   width: 400px;
@@ -57,4 +87,29 @@ img{
   margin-left: auto;
   margin-right: auto;
   box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+#coffeeButton {
+  border: 1px solid rgb(71, 55, 1);
+  padding: 2px;
+  background-color: rgba(247, 218, 168, 0.916);
+  background-image: url(/photo/coffee.jpg);
+}
+
+.email {
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  ;
+}
+
+ul {
+  list-style-position: inside;
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  ;
 }

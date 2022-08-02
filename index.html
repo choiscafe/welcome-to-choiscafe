@@ -4,17 +4,14 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Mochiy+Pop+One&family=Square+Peg&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Mochiy+Pop+One&family=Prompt:wght@600&family=Roboto+Slab&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <title>Welcome to choiscafe</title>
 </head>
 
-<body>
+<body class="intro">
   <header>
     <h1>Welcome to <em>choiscafe!</em></h1>
   </header>
@@ -23,34 +20,26 @@
   <section id="nav">
     <a class="navLinks" id="navHome" href="index.html">Home</a>
     <a class="navLinks" id="navAbout" href="about.html">About</a>
-    <a class="navLinks" id="navProjects" href="project.html">Projects</a>
+    <a class="navLinks" id="navProjects" href="projects.html">Projects</a>
     <a class="navLinks" id="navContact" href="contact.html">Contact</a>
   </section>
 
   <section id="body">
     <div>
-      <h3>About</h3>
+      <h3>Home</h3>
       <p>
-        Chohye Han (Cho) is a soon to be <a href="https://flatironschool.com/">Flatiron School</a>'s Software
-        Engineering student in August 2022.<br>
-        She comes from fashion insdustry.<br>
-        TMI- she recently cat sat her friend of a friend's cat, Aegi , who's owner turned out to be a Flatiron
-        alumni.<br>
+        Hi! <em>Welcome</em> to the first website of choiscafe!<br>
+        Pick your drink!
       </p>
-      <img id="Aegi" src="" />
-      <button type="button" onclick="show()" id="btnID">
-        Show Aegi
-      </button>
+      <div class="container">
+        <input id="coffeeHome" type="button" onclick="clickAlert()" value="Home Americano" />
+        <input id="coffeeLink" type="button" value="About Cappuccino" />
+        <input id="coffeeLink" type="button" value="Projects Latte" />
+        <input id="coffeeLink" type="button" value="Contact Espresso" />
+      </div>
+      <img id="coffee" src="/photo/coffee.jpg" alt="various coffee drinks" />
     </div>
-
-    <div>
-      <h3>Projects</h3>
-    </div>
-
-    <div>
-      <h3>Contact</h3>
-    </div>
-
+    <button onclick="scrollToTop()">Top</button>
   </section>
 </body>
 
