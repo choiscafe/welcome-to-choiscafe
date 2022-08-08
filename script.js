@@ -5,7 +5,7 @@ document.querySelector("body").appendChild(h2);
 
 function show() {
   let image = document.getElementById('Aegi');
-  image.src = "photo/Aegi.jpeg"
+  image.src = "photo/Aegi.jpeg";
 
   document.getElementById('btnID')
     .style.display = "none";

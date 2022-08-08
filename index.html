@@ -17,27 +17,27 @@
   </header>
   <script src="script.js"></script>
 
-  <section id="nav">
+  <div id="nav">
     <a class="navLinks" id="navHome" href="index.html">Home</a>
     <a class="navLinks" id="navAbout" href="about.html">About</a>
     <a class="navLinks" id="navProjects" href="projects.html">Projects</a>
     <a class="navLinks" id="navContact" href="contact.html">Contact</a>
-  </section>
+  </div>
 
   <section id="body">
     <div>
       <h3>Home</h3>
       <p>
-        Hi! <em>Welcome</em> to the first website of choiscafe!<br>
+        Hi! Welcome to the first website of <em>choiscafe</em> !<br>
         Pick your drink!
       </p>
       <div class="container">
         <input id="coffeeHome" type="button" onclick="clickAlert()" value="Home Americano" />
-        <input id="coffeeLink" type="button" value="About Cappuccino" />
-        <input id="coffeeLink" type="button" value="Projects Latte" />
-        <input id="coffeeLink" type="button" value="Contact Espresso" />
+        <input id="coffeeLink" type="button" onclick="clickAlert()" value="About Cappuccino" />
+        <input id="coffeeLatte" type="button" value="Projects Latte" />
+        <input id="coffeeEspresso" type="button" value="Contact Espresso" />
       </div>
-      <img id="coffee" src="/photo/coffee.jpg" alt="various coffee drinks" />
+      <img id="coffee" src="/photo/coffee.jpg" alt="various coffee drinks"/>
     </div>
     <button onclick="scrollToTop()">Top</button>
   </section>
