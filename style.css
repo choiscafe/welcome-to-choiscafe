@@ -93,12 +93,14 @@ a:visited {
   background-color: #555;
   /* Add a dark-grey background on hover */
 }
-
+#coffee{
+  width: 70%;
+}
 #coffeeButton {
   border: 1px solid rgb(71, 55, 1);
   padding: 2px;
   background-color: rgba(247, 218, 168, 0.916);
-  background-image: url(/photo/coffee.jpg);
+
 }
 
 .email {
